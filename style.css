@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(187, 183, 183);
+    
+    
+   }
+ 
+   .main{
+    text-align: center;
+   }
+   
+   .xyz{
+    background-color: black;
+    padding: 15px 15px;
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+
+    .abc{
+        background-color: black;
+        padding: 15px 15px;
+        color: aliceblue;
+        text-align: center;
+    }
+
+    button{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 10px 20px;
+        border-radius: 10px;       
+    }
+
+    button:active{
+        scale: 0.95;
+    }
+
+
