@@ -25,12 +25,12 @@ document.addEventListener('keydown',function(det){
             
     }
     else{
-        h2.innerHTML = 'sahi likh bsdk';
+        h2.innerHTML = 'wrong input!';
     }
-    if( h2.innerHTML =='sahi likh bsdk'){
+    if( h2.innerHTML =='wrong input!'){
         h2.style.color = 'red';
     }
-    if( h2.innerHTML !='sahi likh bsdk'){
+    if( h2.innerHTML !='wrong input!'){
         h2.style.color = 'white';
     }
 
